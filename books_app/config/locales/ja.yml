@@ -14,3 +14,9 @@ ja:
   book: 本一覧
   editing_book: 編集
   new_book: 登録
+  views:
+    pagination:
+      first: 最初
+      previous: 前へ
+      next: 次へ
+      last: 最後
