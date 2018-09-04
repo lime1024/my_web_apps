@@ -20,3 +20,13 @@ ja:
       previous: 前へ
       next: 次へ
       last: 最後
+  sign_up: アカウント登録
+  login: ログイン
+  logged_in_as: ログイン中
+  edit_prof: アカウント修正
+  logout: ログアウト
+  update: 更新
+  cancel: アカウント削除
+  unhappy: 本当に削除しますか？
+  forgot_pass: パスワードをお忘れですか？
+  send: パスワードをリセットします

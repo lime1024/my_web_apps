@@ -31,3 +31,13 @@
 
 en:
   hello: "Hello world"
+  sign_up: "Sign up"
+  login: "Log in"
+  logged_in_as: "Logged in as"
+  edit_prof: "Edit profile"
+  logout: "Logout"
+  update: "Update"
+  cancel: "Cancel my account"
+  unhappy: "Unhappy?"
+  forgot_pass: "Forgot your password?"
+  send: "Send me reset password instructions"
