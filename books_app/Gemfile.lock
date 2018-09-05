@@ -87,7 +87,6 @@ GEM
       warden (~> 1.2.3)
     devise-i18n (1.6.4)
       devise (>= 4.4)
-    devise-i18n-views (0.3.7)
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.25)
@@ -240,7 +239,6 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   devise-i18n
-  devise-i18n-views
   jbuilder (~> 2.5)
   kaminari
   listen (>= 3.0.5, < 3.2)
