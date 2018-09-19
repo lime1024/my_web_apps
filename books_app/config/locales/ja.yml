@@ -6,6 +6,8 @@ ja:
         memo: 備考
         author: 著者
         picture: 画像
+      user:
+        avatar: プロフィール写真
   show: 詳細
   edit: 編集
   destroy: 削除
