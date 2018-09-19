@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     passwords:     "users/passwords",
     registrations: "users/registrations",
     sessions:      "users/sessions",
+    omniauth_callbacks: "users/omniauth_callbacks"
   }
   root "books#index"
   resources :user, only: [:new, :create]

@@ -23,6 +23,7 @@ ja:
       next: 次へ
       last: 最後
   sign_up: アカウント登録
+  github_sign_up: GitHubでログイン
   login: ログイン
   logged_in_as: ログイン中
   edit_prof: アカウント修正
