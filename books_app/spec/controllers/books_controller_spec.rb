@@ -59,7 +59,7 @@ RSpec.describe BooksController, type: :controller do
 
   describe "#destroy" do
     it "正常にリダイレクトすること" do
-      book = Book.create(title: "test", memo: "testtest", author: "test", picture: nil) 
+      book = Book.create(title: "test", memo: "testtest", author: "test", picture: nil)
       delete :destroy, params: { id: book.id }
       expect(response).to be_redirect
     end
