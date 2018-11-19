@@ -40,7 +40,7 @@ RSpec.describe "本の登録", type: :feature do
     click_link "編集"
     fill_in "作品名", with: "たいとるのへんこう"
     click_button "更新する"
-    expect(page).to have_content "たいとるのへんこう" 
+    expect(page).to have_content "たいとるのへんこう"
   end
 
   it "本の削除に成功する" do
