@@ -23,4 +23,14 @@ RSpec.describe "ログイン", type: :feature do
     click_link "GitHubでログイン"
     expect(page).to have_content "GitHub アカウントによる認証に成功しました。"
   end
+
+  it "サインアップする" do
+    visit root_path
+    click_link "アカウント登録"
+    fill_in "Eメール", with: "test@example.jp"
+    fill_in "パスワード", with: "testtesttest"
+    fill_in "パスワード（確認用）", with: "testtesttest"
+    click_button "アカウント登録"
+    expect(page).to have_content "アカウント登録が完了しました"
+  end
 end
